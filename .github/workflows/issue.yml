@@ -1,0 +1,11 @@
+name: issue
+on:
+    workflow_dispatch:
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Log issue details
+              run: |
+                echo "Issue title: ${{ github.event.issue.title }}"
+                echo "Issue body: ${{ github.event.issue.body }}"
