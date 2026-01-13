@@ -7,5 +7,5 @@ jobs:
     steps:
       - run: mkdir hallo
       - run: echo "hier is kleine tekst" > hallo/test.txt
-      - run: cat hello/test.txt
+      - run: ls
       
