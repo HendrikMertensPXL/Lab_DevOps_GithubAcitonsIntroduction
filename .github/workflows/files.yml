@@ -8,4 +8,5 @@ jobs:
       - run: mkdir hallo
       - run: echo "hier is kleine tekst" > hallo/test.txt
       - run: ls
+      - run: cat hallo/test.txt
       
